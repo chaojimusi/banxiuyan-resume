@@ -1,0 +1,74 @@
+# ===== 依赖 =====
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+.pnp
+.pnp.js
+
+# ===== 构建产物 / 缓存 =====
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.temp/
+.tmp/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== 环境变量 / 密钥 =====
+# 注意：凭据一律不得进入版本库。本地令牌请放在仓库之外的
+# ../.secrets/github-token，或通过 GITHUB_TOKEN 环境变量传入。
+.env
+.env.*
+!.env.example
+.secrets/
+.secret/
+*.pem
+*.key
+*.p12
+*.keystore
+.github-token
+github-token
+.gh-token
+.token
+*token*.txt
+
+# ===== 源文档 / 临时产物 =====
+_scrape/
+_sources/
+wget-log*
+*.wget
+mirror-*
+*.docx
+*.doc
+~$*
+
+# ===== 编辑器 / IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
